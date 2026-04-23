@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio App
 
-## Getting Started
+Personal one-page portfolio built with:
 
-First, run the development server:
+- Next.js (App Router)
+- React
+- Tailwind CSS
+- Framer Motion
+
+## Local Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/app/page.tsx`: Main page sections and layout
+- `src/components/`: Reusable UI components
+- `src/data/profile.ts`: Personal profile, education, work experience
+- `src/data/skills.ts`: Skills data (dynamic)
+- `src/data/projects.ts`: Projects data (dynamic)
+- `public/`: Static files (images, CV PDF)
 
-## Learn More
+## Easy Content Updates (No Major Refactor Needed)
 
-To learn more about Next.js, take a look at the following resources:
+For most updates, only edit data files:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Update bio/contact/education/experience in `src/data/profile.ts`
+- Add/edit skills in `src/data/skills.ts`
+- Add/edit projects in `src/data/projects.ts`
+- Replace assets in `public/` (e.g., profile image, CV PDF)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Then run:
 
-## Deploy on Vercel
+```bash
+npm run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If build succeeds, commit and push.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deploy to Vercel (GitHub Auto Deploy)
+
+1. Go to [Vercel New Project](https://vercel.com/new)
+2. Import your GitHub repository
+3. If prompted, set **Root Directory** to `portfolio-app` (only if your repo root is the parent folder)
+4. Vercel should auto-detect Next.js settings
+5. Click **Deploy**
+
+### Recommended Vercel Project Settings
+
+- **Production Branch**: `main`
+- **Node.js Version**: 20.x
+- **Auto Deploy**: Enabled
+
+## Workflow for Future Changes
+
+Use this flow every time:
+
+1. Edit code/data locally
+2. Test locally (`npm run dev`)
+3. Verify build (`npm run build`)
+4. Commit + push to GitHub
+5. Vercel automatically creates:
+   - Preview deployment for PR/branch
+   - Production deployment for pushes to `main`
+
+This setup keeps deployments simple and safe for continuous updates.

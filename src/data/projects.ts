@@ -14,7 +14,6 @@ export const projects: Project[] = [
       "A real-time full-stack social platform with secure authentication, posts, comments, likes, profile management, and instant messaging.",
     techStack: ["MongoDB", "Express.js", "React", "Node.js", "JWT", "Socket.io"],
     github: "https://github.com/YAS-1/Friendly",
-    liveDemo: "https://friendly-sable.vercel.app/",
     featured: true,
   },
   {
