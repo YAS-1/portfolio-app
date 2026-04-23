@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ececf1;
+  --foreground: #222433;
+  --surface: #eeeff4;
+  --accent: #ff694d;
 }
 
 @theme inline {
@@ -12,15 +14,40 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
+  background: radial-gradient(circle at 90% 5%, #f7f7fb 0%, var(--background) 45%);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+section {
+  scroll-margin-top: 88px;
+}
+
+.neo-panel {
+  background: var(--surface);
+  border-radius: 24px;
+  box-shadow:
+    12px 12px 30px rgba(165, 170, 189, 0.38),
+    -12px -12px 26px rgba(255, 255, 255, 0.96);
+}
+
+.neo-card {
+  background: var(--surface);
+  border-radius: 20px;
+  box-shadow:
+    10px 10px 24px rgba(166, 171, 190, 0.33),
+    -9px -9px 22px rgba(255, 255, 255, 0.95);
+}
+
+.neo-inset {
+  background: #eef0f5;
+  box-shadow:
+    inset 5px 5px 12px rgba(177, 183, 204, 0.35),
+    inset -6px -6px 14px rgba(255, 255, 255, 0.95);
 }
