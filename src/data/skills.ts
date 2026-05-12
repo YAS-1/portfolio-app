@@ -9,7 +9,7 @@ export const skillCategories: SkillCategory[] = [
     items: ["JavaScript", "TypeScript", "Python", "SQL"],
   },
   {
-    title: "Frameworks & Libraries",
+    title: "Frameworks & Libraries & Technical Skills",
     items: [
       "React",
       "Next.js",
@@ -19,6 +19,11 @@ export const skillCategories: SkillCategory[] = [
       "Socket.io",
       "TensorFlow",
       "Keras",
+      "API Integration",
+      "API Testing",
+      "Version Control",
+      "Data Visualization", 
+      "Data Analysis",
     ],
   },
   {
@@ -30,6 +35,9 @@ export const skillCategories: SkillCategory[] = [
       "Drupal 11",
       "Wix",
       "Jupyter",
+      "Power BI",
+      "Figma",
+      "Postman",
       "Google Colab",
       "Tableau",
       "Git/GitHub",
