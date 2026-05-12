@@ -31,6 +31,7 @@ export const skillCategories: SkillCategory[] = [
     items: [
       "MongoDB",
       "MySQL",
+      "PostgreSQL",
       "Docker",
       "Drupal 11",
       "Wix",
