@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Yawe Arthur Shalom",
-  tagline: "Computer Science Graduate | Full Stack Developer | Data Scientist | AI/ML Engineer",
-  greeting: "Hello, I build reliable and user-friendly web products, data-driven applications, and AI-powered systems with clean UI and real-world impact.",
+  tagline: "Computer Science Graduate | Software Development | Data Science & AI | Networking & Cybersecurity",
+  greeting: "Hello, I build user-friendly software, data-driven applications, and AI-powered solutions. I enjoy turning ideas into practical solutions through software development, data science, and emerging technologies.",
   email: "yawearthur10@gmail.com",
   phone: "+256 778978927",
   nationality: "Ugandan",
@@ -11,7 +11,7 @@ export const personalInfo = {
 };
 
 export const aboutText =
-  "I am a Computer Science graduate focused on building practical, scalable software solutions. I enjoy developing full-stack applications, working with backend systems, and solving real-world problems through hands-on development. My core interests lie in full-stack web development, backend engineering, and integrating AI-driven features into applications. I have experience building and deploying web applications, working with modern frameworks, and testing APIs using tools like Postman. I’m also developing an understanding of DevOps practices such as containerization and deployment workflows. Through my projects, I’ve worked on solving real challenges using technology for example, developing intelligent systems that apply machine learning to practical use cases. With a solid foundation in software engineering, I am focused on growing as a developer and contributing to building efficient, reliable, and impactful digital products. I am also interested in building data-driven applications and AI-powered systems.";
+  "I am a Computer Science graduate passionate about building practical software solutions, data-driven applications, and AI-powered systems that solve real-world problems. My interests span software development, data science, machine learning, and exploring how emerging technologies can create smarter, more efficient digital solutions. Through personal projects and professional experience, I have developed skills in web application development, data analysis and visualization, backend systems, API testing, and IT support. I also work with business data and ERP systems to improve reporting, streamline operations, and support informed decision-making. Beyond software and data, I am interested in networking, cybersecurity, and the technologies that make digital systems reliable and secure. I am continually expanding my technical skills through hands-on projects and practical learning, with the goal of building efficient, scalable, and impactful solutions.";
 
 export const education = [
   {
@@ -32,6 +32,23 @@ export const education = [
 ];
 
 export const workExperience = [
+  {
+  role: "IT and Data Officer Apprentice",
+  company: "MARKH Investments Ltd and Honda By MARKH",
+  duration: "May 2026 – Present",
+  responsibilities: [
+      "Developed dashboards and generated reports from operational and sales data to identify trends and support data-driven decision-making.",
+      "Administered ERP system modules, managed user access, onboarded users, and supported system adoption across departments.",
+      "Conducted user acceptance testing (UAT), tested system functionality, troubleshot issues, and supported ERP improvements.",
+      "Trained department heads and staff on ERP workflows, improving understanding and adoption of business processes.",
+      "Supported the digitization of business operations, including sales registration, lead tracking, dispatch planning, procurement, inventory, and delivery workflows.",
+      "Provided IT support, assisted with user accounts and email configuration, and resolved day-to-day technical issues.",
+      "Supported the use of ERP systems to manage sales, customer records, leads, and operational workflows.",
+      "Worked with sales and operational data to support reporting, performance monitoring, and business process improvements.",
+      "Assisted with system onboarding, user training, troubleshooting, and adoption across business functions.",
+      "Contributed to improving digital workflows for sales tracking, dispatch coordination, and operational reporting."
+    ],
+  },
   {
     role: "Intern",
     company: "National Information Technology Authority - Uganda (NITA-U)",
