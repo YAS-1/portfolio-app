@@ -41,7 +41,7 @@ export default function Navbar() {
     <header className="fixed top-0 z-50 w-full bg-[#ececf1]/80 backdrop-blur-md">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-8">
         <a href="#home" className="text-lg font-bold text-slate-800">
-          YAS
+          YAWE ARTHUR SHALOM
         </a>
         <ul className="hidden gap-1 md:flex md:flex-wrap">
           {navLinks.map((link) => (

@@ -55,7 +55,7 @@ export default function Home() {
             </div>
             <div className="neo-panel mx-auto p-2">
               <Image
-                src="/pic1.png"
+                src="/pic2.jpeg"
                 alt="Yawe Arthur Shalom portrait"
                 width={420}
                 height={420}
