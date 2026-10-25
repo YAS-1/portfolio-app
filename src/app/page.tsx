@@ -166,11 +166,11 @@ export default function Home() {
               </a>
               <a
                 className="flex items-center gap-3 text-slate-600 transition hover:text-slate-900"
-                href={personalInfo.phone}
+                
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaPhone className="text-[#d4462c]" /> Phone
+                <FaPhone className="text-[#d4462c]" /> {personalInfo.phone}
               </a>
               <a
                 className="flex items-center gap-3 text-slate-600 transition hover:text-slate-900"
