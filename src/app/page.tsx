@@ -129,7 +129,7 @@ export default function Home() {
                 <p className="mt-1 mb-4 text-sm font-medium text-[#d4462c]">
                   {job.duration}
                 </p>
-                <ul className="list-disc space-y-2 pl-5 text-slate-600">
+                <ul className="list-disc space-y-2 pl-5 text-slate-600 text-justify">
                   {job.responsibilities.map((item) => (
                     <li key={item}>{item}</li>
                   ))}
