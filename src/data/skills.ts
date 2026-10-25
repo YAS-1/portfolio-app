@@ -25,7 +25,9 @@ export const skillCategories: SkillCategory[] = [
       "Data Visualization", 
       "Data Analysis",
       "Data Cleaning",
-      "Networking"
+      "Networking",
+      "System Administration",
+      "IT Support"
     ],
   },
   {

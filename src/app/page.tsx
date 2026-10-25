@@ -79,43 +79,6 @@ export default function Home() {
           </a>
         </SectionWrapper>
 
-        <SectionWrapper id="education" title="Education">
-          <div className="grid gap-5 md:grid-cols-3">
-            {education.map((item) => (
-              <article
-                key={item.institution}
-                className="neo-card p-6"
-              >
-                <h3 className="mb-2 text-lg font-semibold text-slate-800">
-                  {item.institution}
-                </h3>
-                <p className="mb-2 text-slate-600">{item.degree}</p>
-                <p className="text-sm font-medium text-[#d4462c]">{item.duration}</p>
-              </article>
-            ))}
-          </div>
-        </SectionWrapper>
-
-        <SectionWrapper id="skills" title="Skills">
-          <div className="grid gap-5 md:grid-cols-2">
-            {skillCategories.map((category) => (
-              <SkillCard
-                key={category.title}
-                title={category.title}
-                items={category.items}
-              />
-            ))}
-          </div>
-        </SectionWrapper>
-
-        <SectionWrapper id="projects" title="Some of My Projects">
-          <div className="grid gap-5 md:grid-cols-2">
-            {projects.map((project) => (
-              <ProjectCard key={project.name} project={project} />
-            ))}
-          </div>
-        </SectionWrapper>
-
         <SectionWrapper id="experience" title="Work Experience">
           <div className="space-y-5">
             {workExperience.map((job) => (
@@ -135,6 +98,43 @@ export default function Home() {
                   ))}
                 </ul>
               </article>
+            ))}
+          </div>
+        </SectionWrapper>
+
+        <SectionWrapper id="skills" title="Skills">
+          <div className="grid gap-5 md:grid-cols-2">
+            {skillCategories.map((category) => (
+              <SkillCard
+                key={category.title}
+                title={category.title}
+                items={category.items}
+              />
+            ))}
+          </div>
+        </SectionWrapper>
+
+        <SectionWrapper id="education" title="Education">
+          <div className="grid gap-5 md:grid-cols-3">
+            {education.map((item) => (
+              <article
+                key={item.institution}
+                className="neo-card p-6"
+              >
+                <h3 className="mb-2 text-lg font-semibold text-slate-800">
+                  {item.institution}
+                </h3>
+                <p className="mb-2 text-slate-600">{item.degree}</p>
+                <p className="text-sm font-medium text-[#d4462c]">{item.duration}</p>
+              </article>
+            ))}
+          </div>
+        </SectionWrapper>
+
+        <SectionWrapper id="projects" title="Some of My Projects">
+          <div className="grid gap-5 md:grid-cols-2">
+            {projects.map((project) => (
+              <ProjectCard key={project.name} project={project} />
             ))}
           </div>
         </SectionWrapper>
