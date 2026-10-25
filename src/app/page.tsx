@@ -166,7 +166,6 @@ export default function Home() {
               </a>
               <a
                 className="flex items-center gap-3 text-slate-600 transition hover:text-slate-900"
-                href=""
                 target="_blank"
                 rel="noreferrer"
               >
