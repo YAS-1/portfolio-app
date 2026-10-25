@@ -139,7 +139,7 @@ export default function Home() {
           </div>
         </SectionWrapper>
 
-        <SectionWrapper id="contact" title="Contact">
+        <SectionWrapper id="contact" title="Contact Me">
           <div className="grid gap-8 md:grid-cols-2">
             <div className="space-y-4">
               <a
