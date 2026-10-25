@@ -14,7 +14,6 @@ export const projects: Project[] = [
       "A real-time full-stack social platform with secure authentication, posts, comments, likes, profile management, and instant messaging.",
     techStack: ["MongoDB", "Express.js", "React", "Node.js", "JWT", "Socket.io"],
     github: "https://github.com/YAS-1/Friendly",
-    featured: true,
   },
   {
     name: "NITACB - AI Support & Onboarding Chatbot",
@@ -22,7 +21,6 @@ export const projects: Project[] = [
       "An enterprise chatbot platform built during internship to automate FAQ and ticket support, onboarding, and organization-wide information access.",
     techStack: ["JavaScript", "Python", "React", "Node.js", "Mistral AI"],
     github: "https://github.com/YAS-1/NITACB",
-    featured: true,
   },
   {
     name: "Daystar DayCare Management System",

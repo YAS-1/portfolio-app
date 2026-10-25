@@ -24,6 +24,8 @@ export const skillCategories: SkillCategory[] = [
       "Version Control",
       "Data Visualization", 
       "Data Analysis",
+      "Data Cleaning",
+      "Networking"
     ],
   },
   {
@@ -37,6 +39,10 @@ export const skillCategories: SkillCategory[] = [
       "Wix",
       "Jupyter",
       "Power BI",
+      "Excel",
+      "Word",
+      "PowerPoint",
+      "Canva",
       "Figma",
       "Postman",
       "Google Colab",
