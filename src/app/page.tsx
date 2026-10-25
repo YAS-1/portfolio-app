@@ -46,7 +46,7 @@ export default function Home() {
                   Contact Me
                 </a>
                 <a
-                  href="/My-CV.pdf"
+                  href="/YAWE_ARTHUR_SHALOM_RESUME.pdf"
                   download
                   className="neo-card inline-flex items-center gap-2 rounded-full px-5 py-3 text-sm font-semibold text-[#d4462c] transition hover:text-[#b93d27]"
                 >
@@ -108,7 +108,7 @@ export default function Home() {
           </div>
         </SectionWrapper>
 
-        <SectionWrapper id="projects" title="Projects">
+        <SectionWrapper id="projects" title="Some of My Projects">
           <div className="grid gap-5 md:grid-cols-2">
             {projects.map((project) => (
               <ProjectCard key={project.name} project={project} />
